@@ -14,7 +14,9 @@
         <component :is="subItem.meta.icon"></component>
       </el-icon>
       <template #title>
-        <span class="sle">{{ subItem.meta.title }}</span>
+        <el-tooltip class="box-item" effect="dark" :content="subItem.meta.title" placement="right">
+          <span class="sle">{{ subItem.meta.title }}</span>
+        </el-tooltip>
       </template>
     </el-menu-item>
   </template>

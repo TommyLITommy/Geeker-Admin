@@ -144,12 +144,12 @@
       },
       "children": [
         {
-          "path": "/webTools/webBroadcastAssistant",
-          "name": "webBroadcastAssistant",
-          "component": "/webTools/webBroadcastAssistant/index",
+          "path": "/webTools/webSerialPort",
+          "name": "webSerialPort",
+          "component": "/webTools/webSerialPort/index",
           "meta": {
             "icon": "Menu",
-            "title": "Web Broadcast Assistant",
+            "title": "Serial Port",
             "isLink": "",
             "isHide": false,
             "isFull": false,
@@ -158,12 +158,40 @@
           }
         },
         {
-          "path": "/webTools/webSerialPort",
-          "name": "webSerialPort",
-          "component": "/webTools/webSerialPort/index",
+          "path": "/webTools/webBroadcastAssistant",
+          "name": "webBroadcastAssistant",
+          "component": "/webTools/webBroadcastAssistant/index",
           "meta": {
             "icon": "Menu",
-            "title": "Web Serial Port",
+            "title": "Broadcast Assistant",
+            "isLink": "",
+            "isHide": false,
+            "isFull": false,
+            "isAffix": false,
+            "isKeepAlive": true
+          }
+        },
+        {
+          "path": "/webTools/webBroadcastSink",
+          "name": "webBroadcastSink",
+          "component": "/webTools/webBroadcastSink/index",
+          "meta": {
+            "icon": "Menu",
+            "title": "Broadcast Sink",
+            "isLink": "",
+            "isHide": false,
+            "isFull": false,
+            "isAffix": false,
+            "isKeepAlive": true
+          }
+        },
+        {
+          "path": "/webTools/webBroadcastSource",
+          "name": "webBroadcastSource",
+          "component": "/webTools/webBroadcastSource/index",
+          "meta": {
+            "icon": "Menu",
+            "title": "Broadcast Source",
             "isLink": "",
             "isHide": false,
             "isFull": false,
@@ -177,7 +205,7 @@
           "component": "/webTools/webHexViewer/index",
           "meta": {
             "icon": "Menu",
-            "title": "Web Hex Viewer",
+            "title": "Hex Viewer",
             "isLink": "",
             "isHide": false,
             "isFull": false,
